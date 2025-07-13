@@ -7,5 +7,6 @@ export const textTailwindStyle: Record<TextVariant, string> = {
   medium: `text-base`,                           
   semismall: `text-sm`,                          
   small: `text-xs`,                              
-  navbar: `text-sm font-medium`,                  
+  navbar: `text-sm font-medium`,
+  "header-space-title": `pt-4 pl-1 pb-4 pr-2`               
 }

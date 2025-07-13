@@ -1,15 +1,14 @@
 type NavItem = {
   label: string;
   href?: string;  
+  specificStyle?: string;
 }
 
 export type NavBarProps = {
   items: NavItem[];
-  styles: {
-    ul: string;
-    li: string;
-    a: string;
-    nav: string;
+  styles?: {
+    a?: string;
+    nav?: string;
   };
   children?: React.ReactNode;
 }
