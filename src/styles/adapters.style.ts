@@ -1,8 +1,10 @@
 import { buttonTailwindStyle } from "./tailwind/button.style";
-import { textTailwindStyle } from "./tailwind/text.style";
-import { navbarTailwindStyle } from "./tailwind/nav.style";
-import { headerTailwindStyle } from "./tailwind/header.style";
+import { navbarTailwindStyle } from "./tailwind/root/nav.style";
+import { headerTailwindStyle } from "./tailwind/root/header.style";
+import { inputLabelTailwindStyle } from "./tailwind/inputLabel.style";
+import { mainTailwindStyle } from "./tailwind/root/main.style";
 export const buttonStyle = buttonTailwindStyle;
-export const textStyle = textTailwindStyle;
 export const navbarStyle = navbarTailwindStyle;
 export const headerStyle = headerTailwindStyle;
+export const inputLabelStyle = inputLabelTailwindStyle;
+export const mainStyle = mainTailwindStyle;

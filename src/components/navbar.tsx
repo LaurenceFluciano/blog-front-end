@@ -1,4 +1,17 @@
-import { NavBarProps } from "./interface/navbar.interface"
+type NavItem = {
+  label: string;
+  href?: string;  
+  specificStyle?: string;
+}
+
+export type NavBarProps = {
+  items: NavItem[];
+  styles?: {
+    a?: string;
+    nav?: string;
+  };
+  children?: React.ReactNode;
+}
 
 export default function NavBar({ items, styles, children }: NavBarProps) {
   return (

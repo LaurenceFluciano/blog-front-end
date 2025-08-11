@@ -1,11 +1,11 @@
-import { HeaderVariant } from "../styletypes/header.style";
+import { HeaderVariant } from "../../types/root/header.style";
 export const headerTailwindStyle: HeaderVariant =
 {
   "primary": `
     box-border
     flex flex-row items-center
-    h-20
+    h-15
     w-screen
-    border-2 border-transparent border-b-stone-900
+    border-1 border-transparent border-b-stone-900
   `
 }

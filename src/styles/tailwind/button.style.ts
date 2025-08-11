@@ -1,4 +1,4 @@
-import { ButtonVariant } from "../styletypes/button.style"
+import { ButtonVariant } from "../types/button.style"
 
 export const buttonTailwindStyle: Record<ButtonVariant, string> =
 {
